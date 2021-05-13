@@ -11,7 +11,7 @@ const meta = {
 }
 // Declare Plugin
 window['start_' + meta.id] = function(){
-    document.body.innerHTML = document.body.innerHTML.replace("Starfiles", "SimonGay")
+    document.body.innerHTML = document.body.innerHTML.replace("Starfiles", "Simon is Gay")
 }
 // Run Plugin
 init_plugin(meta);
