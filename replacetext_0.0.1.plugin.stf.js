@@ -1,6 +1,6 @@
 // Metadata
 const meta = {
-    id: 'xxxxxxxx',
+    id: 'com.quix.replacetext', // ID's should be a unique string
     name: 'My Plugin',
     author: 'Parsa Yazdani (Quix)',
     version: '0.0.1',
