@@ -1,7 +1,9 @@
 // Metadata
 const meta = {
     id: 'com.quix.replacetext', // ID's should be a unique string
-    name: 'My Plugin',
+    name: 'Replace Text',
+    path: 'replacetext',
+    repo: 'QuixThe2nd/starfiles-plugin-demo',
     author: 'Parsa Yazdani (Quix)',
     version: '0.1',
     link: 'https://github.com/QuixThe2nd/starfiles-plugin-demo',
