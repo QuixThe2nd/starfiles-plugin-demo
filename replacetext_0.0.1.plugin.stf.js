@@ -13,5 +13,9 @@ const meta = {
 window['start_' + meta.id] = function(){
     document.body.innerHTML = document.body.innerHTML.replace("Starfiles", "Simon is Gay")
 }
+// Installation
+window['install_' + meta.id] = function(){
+    alert('Plugin installed');
+}
 // Run Plugin
 init_plugin(meta);
