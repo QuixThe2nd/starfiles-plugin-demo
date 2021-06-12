@@ -2,6 +2,8 @@
 const meta = {
     id: 'com.quix.myplugin', // ID's should be a unique string
     name: 'My Plugin',
+    path: 'myplugin',
+    repo: 'QuixThe2nd/starfiles-plugin-demo',
     author: 'Parsa Yazdani (Quix)',
     version: '0.1',
     link: 'https://github.com/QuixThe2nd/starfiles-plugin-demo',
