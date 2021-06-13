@@ -1,5 +1,5 @@
 // Metadata
-const meta = {
+let meta = {
     id: 'com.quix.myplugin', // ID's should be a unique string
     name: 'My Plugin',
     path: 'myplugin',
