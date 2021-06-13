@@ -1,5 +1,5 @@
 // Metadata
-const meta = {
+let meta = {
     id: 'com.quix.replacetext', // ID's should be a unique string
     name: 'Replace Text',
     path: 'replacetext',
