@@ -1,5 +1,5 @@
 // Metadata
-let meta = {
+let replacetext_meta = {
     id: 'com.quix.replacetext', // ID's should be a unique string
     name: 'Replace Text',
     path: 'replacetext',
@@ -12,12 +12,12 @@ let meta = {
     }
 }
 // Declare Plugin
-window['start_' + meta.id] = function(){
+window['start_' + replacetext_meta.id] = function(){
     document.body.innerHTML = document.body.innerHTML.replace("Starfiles", "Simon is Gay")
 }
 // Installation
-window['install_' + meta.id] = function(){
+window['install_' + replacetext_meta.id] = function(){
     alert('Plugin installed');
 }
 // Run Plugin
-init_plugin(meta);
+init_plugin(replacetext_meta);
